@@ -1,0 +1,432 @@
+*{
+    font-family: 'Be Vietnam Pro';
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+
+.container-flex{
+    display: flex;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+    background-image: url("../imagenes/bg-tablet-pattern.svg");
+}
+
+.center{
+    justify-content: center;
+}
+
+nav{
+    justify-content:space-around;
+    align-items:center;
+} 
+
+#logo{
+    margin-top: 10px;
+}
+
+.img-responsive {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.listaNav{
+    display: flex;
+    list-style-type: none;
+}
+
+main {
+
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sectionWidth{
+    width: 50%;
+}
+
+.firstSection{
+    align-items: center;
+}
+
+.secondSection{
+    align-items: center;
+}
+
+#bring{
+    font-weight: 700;
+    font-size: 58px;
+    color: #232C50;
+}
+
+#what{
+    font-weight: bold;
+    font-size: 36px;
+    color: #232C50;
+}
+
+.getStarted{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 134px;
+    height: 44px;
+    color: #FFFFFF;
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    /* margin: 0px 224px; */
+}
+
+.imgBtn{
+    max-width: 69px;
+    max-height: 43px;
+    margin-top: 1.8%;
+    margin-right: 3%;
+}
+
+p{
+    font-weight: 500, medium;
+    color: #000000;
+}
+
+.hCards{
+    font-weight: 700, bold;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contenedor-cards{
+    justify-content: center;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 10px;
+    background-color: #FAFAFA;
+
+}
+
+.imgsize{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+h4, h6{
+    font-weight: 700, bold;
+    font-size: 16px;
+}
+
+.description{
+    font-weight: 500, medium;
+    color: #B3B2B7;
+}
+
+.margins{
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+footer .headFooter{
+    background-color: #F3613C;
+    display: flex;
+    justify-content: space-around;
+    padding: 44px;
+}
+
+footer .headFooter h2{
+    color:#FFFFFF;
+    font-size: 40px;
+}
+
+#headFooter1{
+    width: 25%;
+}
+
+.headFooter{
+    align-items: center;
+}
+
+.headFooter a{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: 700, bold;
+    font-size: 15x;
+    color: #F3603B;
+    background: #FFFFFF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(160, 79, 59, 0.5);
+}
+
+footer .bodyFooter{
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-around;
+    padding: 44px;
+}
+
+.bodyFooter section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    width:50%;
+    justify-content: space-around;
+}
+
+.pages1 li{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0px; */
+    color: #FFFFFF;
+}
+
+.pages2 li{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0px; */
+    color: #FFFFFF;
+}
+
+
+.copyright{
+    font-size: 12.5px;
+    font-weight: 500, medium;
+    color: #8C8C94;
+}
+
+form input{
+    border-radius: 50px;
+    width: 201px;
+    height: 24px;
+    padding: 10px;
+}
+
+form button{
+    width: 63px;
+    height: 42px;
+    border-radius: 50px;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.form1 article{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.animation:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+.animation {
+    background:
+    linear-gradient(
+        to right,
+        rgba(100, 200, 200, 1),
+        rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.copyrightMobile{
+    display: none;
+}
+
+.logoMobileON{
+    display: none;
+}
+
+.getStartedMobile{
+    display: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+
+    .listaNav {
+        display: none;
+    }
+
+    nav button{
+        display: none;
+    }
+
+    nav  {
+        display: flex;
+        margin-top: 8%;
+    }
+
+    .img-responsive{
+        display: flex;
+    }
+
+    .firstSection{
+        flex-direction: column-reverse;
+    }
+
+    .secondSection{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #introsize{
+        max-width: 100%;
+    }
+
+    .mobileaboutManage{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .mobileBring{
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobileIlustration{
+        width: 100%;
+    }
+    .mobileList{
+        width: 100%;
+    }
+
+    .hCards{
+        font-size: 28px;
+    }
+
+    .cardmobile2{
+        width: 100%;
+        text-align: center;
+    }
+    .cardmobile1, .cardmobile3{
+        display: none;
+    }
+
+    #bring{
+        font-size: 32px;
+    }
+
+    .headFooter{
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .bodyFooter{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .mobile-flex{
+        display: flex;
+    }
+
+    .logoMobileON{
+        display: flex;
+        margin-top: 20%;
+        max-width: 100%;
+        align-self: center;
+    }
+/* Quito un logo Manage */
+    .logoMobileOFF{
+        display: none;
+    }
+
+/* Agrego un logo Manage */
+    .logoMobileON{
+        margin-top: 20%;
+        max-width: 100%;
+        align-self: center;
+    }
+
+    .animation{
+        padding: 15px;
+    }
+
+    footer .headFooter h2{
+        font-size: 30px;
+    }
+
+    #headFooter1{
+        width: 95%;
+        text-align: center;
+
+    }
+/* Quito un "boton" (<a>) */
+    .aMobile{
+        display: none;
+    }
+/* Agrego el boton (button)*/
+    .getStartedMobile{
+        display: block;
+        width: 134px;
+        height: 44px;
+        color: #F3603B;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        font-weight: bold;
+    }
+/* No encontre otra manera de quitar este texto.*/
+    .copyright{
+        font-size: 0px;
+    }
+
+    .copyrightMobile{
+        display: block;
+        font-size: 12.5px;
+        font-weight: 500, medium;
+        color: #8C8C94;
+        margin-top: 15%;
+    }
+}
